@@ -1,0 +1,113 @@
+.genre {
+    font-family: 'BIZ UDGothic', sans-serif;
+    text-shadow: 4px 4px 5px black;
+    height: 150px;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    top: 40px;
+    text-align: center;
+    list-style-type: disc;
+}
+
+.act{
+    background-image: url(../../images/vincenzo.jpg);
+    background-size:105%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    font-size: 70px;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    width: 400px;
+    height: 100px;
+    padding-top: 20px;
+}
+.emo{
+    background-image: url(../../images/dp1.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+    background-color: aqua;
+    font-size: 70px;
+    height: 100px;
+    position: absolute;
+    padding-top: 20px;
+    top: 280px;
+    left: 10px;
+    width: 400px;
+}
+
+.fam{
+    background-image: url(../../images/reply.jpg);
+    background-size: 100%;
+    border-radius: 20px;
+    background-color: aquamarine;
+    font-size: 70px;
+    height: 100px;
+    padding-top: 20px;
+    position: absolute;
+    top: 480px;
+    left: 10px;
+    width: 400px;
+    
+}
+
+.rom{
+    background-image: url(../../images/abyss.jpg);
+    background-size: 100%;
+    border-radius: 20px;
+    background-color: burlywood;
+    font-size: 70px;
+    height: 100px;
+    padding-top: 20px;
+    position: absolute;
+    top: 280px;
+    right: 70px;
+    width: 400px;
+    
+}
+
+.thr{
+    background-image: url(../../images/aouad.jpg);
+    background-size: 100%;
+    border-radius: 20px;
+    background-color: cadetblue;
+    font-size: 70px;
+    height: 100px;
+    padding-top: 20px;
+    position: absolute;
+    top: 480px;
+    right: 70px;
+    width: 400px;
+}
+
+.dark{
+    background-image: url(../../images/wkh.jpg);
+    background-size: 100%;
+    border-radius: 20px;
+    background-color: chocolate;
+    font-size: 70px;
+    height: 100px;
+    padding-top: 20px;
+    position: absolute;
+    top: 80px;
+    right: 70px;
+    width: 400px;
+}
+
+@media(max-width:1060px){
+    .genre{
+        width: 45%;
+        padding: 10px;
+    }
+}
+
+@media(max-width:790px){
+    .genre{
+        width: 100%;
+    }
+    .genre a{
+        font-size: 1.4rem;
+    }
+}

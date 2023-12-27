@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rate-style.css">
+    
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h3>note</h3>
+        <form action="#">
+            <div class="rating">
+                <input type="number" name="rating" hidden>
+                <i class='bx bx-star star' style=" --i: 0;"></i>
+                <i class='bx bx-star star' style=" --i: 1;"></i>
+                <i class='bx bx-star star' style=" --i: 2;"></i>
+                <i class='bx bx-star star' style=" --i: 3;"></i>
+                <i class='bx bx-star star' style=" --i: 4;"></i>
+            </div>
+            <textarea name="opinion" cols="30" rows="5" placeholder="Your rating..."></textarea>
+            <div class="btn-group">
+                <button type="submit" class="btn submit">Submit</button>
+                <button class="btn cancel">Cancel</button>
+            </div>    
+        </form>
+    </div>
+
+    <script src="rate.js"></script>
+</body>
+</html> 
